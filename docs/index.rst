@@ -1,0 +1,5 @@
+===================
+collective.geoindex
+===================
+
+User documentation
