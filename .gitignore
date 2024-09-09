@@ -37,3 +37,5 @@ report.html
 reports/
 venv/
 # excludes
+.eggs
+.python-version

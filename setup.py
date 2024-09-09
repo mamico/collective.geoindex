@@ -21,11 +21,10 @@ setup(
     long_description=long_description,
     # Get more from https://pypi.org/classifiers/
     classifiers=[
-        "Environment :: Web Environment",
-        "Framework :: Plone",
-        "Framework :: Plone :: Addon",
-        "Framework :: Plone :: 5.2",
-        "Framework :: Plone :: 6.0",
+        'Development Status :: 5 - Production/Stable',
+        'Environment :: Web Environment',
+        'Framework :: Zope2',
+        'Framework :: Zope :: 4',
         "Programming Language :: Python",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
@@ -53,25 +52,12 @@ setup(
     install_requires=[
         "setuptools",
         # -*- Extra requirements: -*-
-        "z3c.jbot",
-        "plone.api>=1.8.4",
-        "plone.app.dexterity",
+        'Products.ZCatalog',
+        'rtree',
     ],
     extras_require={
         "test": [
-            "plone.app.testing",
-            # Plone KGS does not use this version, because it would break
-            # Remove if your package shall be part of coredev.
-            # plone_coredev tests as of 2016-04-01.
-            "plone.testing>=5.0.0",
-            "plone.app.contenttypes",
-            "plone.app.robotframework[debug]",
+            "plone.testing",
         ],
     },
-    entry_points="""
-    [z3c.autoinclude.plugin]
-    target = plone
-    [console_scripts]
-    update_locale = collective.geoindex.locales.update:update_locale
-    """,
 )
