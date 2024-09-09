@@ -21,10 +21,10 @@ setup(
     long_description=long_description,
     # Get more from https://pypi.org/classifiers/
     classifiers=[
-        'Development Status :: 5 - Production/Stable',
-        'Environment :: Web Environment',
-        'Framework :: Zope2',
-        'Framework :: Zope :: 4',
+        "Development Status :: 5 - Production/Stable",
+        "Environment :: Web Environment",
+        "Framework :: Zope2",
+        "Framework :: Zope :: 4",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
@@ -52,8 +52,8 @@ setup(
     install_requires=[
         "setuptools",
         # -*- Extra requirements: -*-
-        'Products.ZCatalog',
-        'rtree',
+        "Products.ZCatalog",
+        "rtree",
     ],
     extras_require={
         "test": [
