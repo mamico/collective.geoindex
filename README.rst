@@ -31,63 +31,31 @@
 collective.geoindex
 ===================
 
-An add-on for Plone
+A Zope catalog index with support for indexing geospatial point or rectangle data. Using Rtree_ for indexing and querying.
+
+
+.. _Rtree: https://pypi.org/project/Rtree/
 
 Features
 --------
 
-- Can be bullet points
-
-
-Examples
---------
-
-This add-on can be seen in action at the following sites:
-- Is there a page on the internet where everybody can see the features?
-
-
-Documentation
--------------
-
-Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
-
-
-Translations
-------------
-
-This product has been translated into
-
-- Klingon (thanks, K'Plai)
-
-
-Installation
-------------
-
-Install collective.geoindex by adding it to your buildout::
-
-    [buildout]
-
-    ...
-
-    eggs =
-        collective.geoindex
-
-
-and then running ``bin/buildout``
-
+- 
 
 Authors
 -------
 
-Provided by awesome people ;)
+This package was created by `Mauro Amico`_.
+
+Originally developed by `Howard Butler`_  in 2011, see `zope.index.rtree`_.
+
+.. _Mauro Amico: https://github.com/mamico
+.. _Howard Butler: https://github.com/hobu
+.. _zope.index.rtree: https://github.com/Toblerity/zope.index.rtree
 
 
 Contributors
 ------------
 
-Put your name here, you deserve it!
-
-- ?
 
 
 Contribute
